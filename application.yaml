@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/habib-dubizzle/argo-app.git
-    targetRevision: master
-    path: helm
+    targetRevision: main
+    path: k8/
   destination:
     server: https://kubernetes.default.svc
 
