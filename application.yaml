@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/habib-dubizzle/argo-app.git
-    targetRevision: HEAD
+    targetRevision: master
     path: helm
   destination:
     server: https://kubernetes.default.svc
@@ -18,4 +18,3 @@ spec:
 
     automated:
       selfHeal: true
-      prune: true
