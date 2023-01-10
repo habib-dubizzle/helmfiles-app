@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/habib-dubizzle/argo-app.git
-    targetRevision: main
+    repoURL: https://github.com/habib-dubizzle/helmfiles-app.git
+    targetRevision: master
     path: k8/
   destination:
     server: https://kubernetes.default.svc
